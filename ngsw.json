@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1589833053976,
+  "timestamp": 1589874151403,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -9,55 +9,56 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main-es2015.3a4e731e1ea9fbb5caee.js",
-        "/main-es5.3a4e731e1ea9fbb5caee.js",
+        "/main-es2015.ad2ca393419de1d1db30.js",
+        "/main-es5.ad2ca393419de1d1db30.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.690002c25ea8557bb4b0.js",
         "/polyfills-es5.9e286f6d9247438cbb02.js",
         "/runtime-es2015.1eba213af0b233498d9d.js",
         "/runtime-es5.1eba213af0b233498d9d.js",
         "/scripts.fd6c5645829e82918226.js",
-        "/styles.bfda1c1d630bc18e5b6d.css"
+        "/styles.edfaa015d40b83df99a3.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Poppins:wght@400;500;700&display=swap"
+      ]
     },
     {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/assets/icons/Icon144x144.png",
+        "/assets/icons/favicon.png"
       ],
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "random.org",
+      "patterns": [
+        "https:\\/\\/api\\.covid19india\\.org\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 3,
+      "maxAge": 604800000,
+      "version": 1
+    }
+  ],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/index.html": "1371ef4d56722244cd8740cd0342b8cbd43bf3f4",
-    "/main-es2015.3a4e731e1ea9fbb5caee.js": "92a08badfe451e6553bd71b842cf43ef06a62cee",
-    "/main-es5.3a4e731e1ea9fbb5caee.js": "6099512ed0592da42fb15d0c3350205110824506",
-    "/manifest.webmanifest": "064208b2032382a10f860481efdb5a60e67a5252",
+    "/assets/icons/Icon144x144.png": "8f4dd419cf64aec5a65aedfa84b319bd29fac803",
+    "/assets/icons/favicon.png": "f6ac8307695ceaac480858a19b6cb88c456dd30a",
+    "/index.html": "10a850d1361bde45199a7f31f7aa8b8fc167ba8d",
+    "/main-es2015.ad2ca393419de1d1db30.js": "f6b0c2cd976b11533e6f9fa3c5a036bc1d32814b",
+    "/main-es5.ad2ca393419de1d1db30.js": "0c55ab68f9c23bf19bb7fc9cfd26dc34a517572d",
+    "/manifest.webmanifest": "6123e995709a7ce2f749d31102811249e1ea306a",
     "/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/polyfills-es5.9e286f6d9247438cbb02.js": "89222a28dbabb780fc372d33834080e0cd3083d9",
     "/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/scripts.fd6c5645829e82918226.js": "8b04deb25aa54135f66d667d95591362b5b2a088",
-    "/styles.bfda1c1d630bc18e5b6d.css": "a696814ecd9a852601decc2aa32cd4cd4a91d799"
+    "/styles.edfaa015d40b83df99a3.css": "b93e8d251e4edb2d636cb856ace4abc0bc14ead1"
   },
   "navigationUrls": [
     {
