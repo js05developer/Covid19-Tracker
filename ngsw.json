@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1590211883065,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/index.html",
+        "/main-es2015.51873841cf677b98d136.js",
+        "/main-es5.51873841cf677b98d136.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.690002c25ea8557bb4b0.js",
+        "/polyfills-es5.9e286f6d9247438cbb02.js",
+        "/runtime-es2015.1eba213af0b233498d9d.js",
+        "/runtime-es5.1eba213af0b233498d9d.js",
+        "/scripts.fd6c5645829e82918226.js",
+        "/styles.1cef2703450ccace4717.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Poppins:wght@400;500;700&display=swap"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/e.svg",
+        "/assets/earth.svg",
+        "/assets/g.svg",
+        "/assets/icons/Icon144x144.png",
+        "/assets/icons/favicon.png",
+        "/assets/india_flag.svg",
+        "/assets/internet.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "random.org",
+      "patterns": [
+        "https:\\/\\/api\\.covid19india\\.org\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 3,
+      "maxAge": 604800000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/e.svg": "1ff37221d7291e07043e3ec76163347062d266fe",
+    "/assets/earth.svg": "662a7b207fb557b653292c20b3e84cff1890e861",
+    "/assets/g.svg": "4aae5cbd78a9dfecaa2f0b6fe9283ce577cc8db9",
+    "/assets/icons/Icon144x144.png": "8f4dd419cf64aec5a65aedfa84b319bd29fac803",
+    "/assets/icons/favicon.png": "f6ac8307695ceaac480858a19b6cb88c456dd30a",
+    "/assets/india_flag.svg": "1480fc949eb3d0b306a61cf5087a9f27a7fa4a2c",
+    "/assets/internet.svg": "080110fe7cb8c9a0f7d893bc2d23bb56fa3330fd",
+    "/index.html": "59852d1b2dc362bf9bd3f56074067ddaad2fce58",
+    "/main-es2015.51873841cf677b98d136.js": "fa5a0bc903c85fa2a57e2f820ed68db6b0c777cc",
+    "/main-es5.51873841cf677b98d136.js": "19f835a0363056ece06a2ae754d55650fada2f45",
+    "/manifest.webmanifest": "6123e995709a7ce2f749d31102811249e1ea306a",
+    "/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/polyfills-es5.9e286f6d9247438cbb02.js": "89222a28dbabb780fc372d33834080e0cd3083d9",
+    "/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/scripts.fd6c5645829e82918226.js": "8b04deb25aa54135f66d667d95591362b5b2a088",
+    "/styles.1cef2703450ccace4717.css": "6a04229dc4f959755090dcf24562371f8b62b391"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
