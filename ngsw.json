@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1589874151403,
+  "timestamp": 1590209768989,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -9,15 +9,15 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main-es2015.ad2ca393419de1d1db30.js",
-        "/main-es5.ad2ca393419de1d1db30.js",
+        "/main-es2015.e5048d32a6eebb41b665.js",
+        "/main-es5.e5048d32a6eebb41b665.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.690002c25ea8557bb4b0.js",
         "/polyfills-es5.9e286f6d9247438cbb02.js",
         "/runtime-es2015.1eba213af0b233498d9d.js",
         "/runtime-es5.1eba213af0b233498d9d.js",
         "/scripts.fd6c5645829e82918226.js",
-        "/styles.edfaa015d40b83df99a3.css"
+        "/styles.507649bfb288d04ae0c1.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Poppins:wght@400;500;700&display=swap"
@@ -28,8 +28,13 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/assets/e.svg",
+        "/assets/earth.svg",
+        "/assets/g.svg",
         "/assets/icons/Icon144x144.png",
-        "/assets/icons/favicon.png"
+        "/assets/icons/favicon.png",
+        "/assets/india_flag.svg",
+        "/assets/internet.svg"
       ],
       "patterns": []
     }
@@ -47,18 +52,23 @@
     }
   ],
   "hashTable": {
+    "/assets/e.svg": "1ff37221d7291e07043e3ec76163347062d266fe",
+    "/assets/earth.svg": "662a7b207fb557b653292c20b3e84cff1890e861",
+    "/assets/g.svg": "4aae5cbd78a9dfecaa2f0b6fe9283ce577cc8db9",
     "/assets/icons/Icon144x144.png": "8f4dd419cf64aec5a65aedfa84b319bd29fac803",
     "/assets/icons/favicon.png": "f6ac8307695ceaac480858a19b6cb88c456dd30a",
-    "/index.html": "10a850d1361bde45199a7f31f7aa8b8fc167ba8d",
-    "/main-es2015.ad2ca393419de1d1db30.js": "f6b0c2cd976b11533e6f9fa3c5a036bc1d32814b",
-    "/main-es5.ad2ca393419de1d1db30.js": "0c55ab68f9c23bf19bb7fc9cfd26dc34a517572d",
+    "/assets/india_flag.svg": "1480fc949eb3d0b306a61cf5087a9f27a7fa4a2c",
+    "/assets/internet.svg": "080110fe7cb8c9a0f7d893bc2d23bb56fa3330fd",
+    "/index.html": "6bc6e696ba2d7dbf5b534ded7a04f179f9bdf3fa",
+    "/main-es2015.e5048d32a6eebb41b665.js": "5b36dbe8ff31bd8191b599fb79065315c86f8496",
+    "/main-es5.e5048d32a6eebb41b665.js": "901efa93a0aafd77816e42613bb98e3102cfb292",
     "/manifest.webmanifest": "6123e995709a7ce2f749d31102811249e1ea306a",
     "/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/polyfills-es5.9e286f6d9247438cbb02.js": "89222a28dbabb780fc372d33834080e0cd3083d9",
     "/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/scripts.fd6c5645829e82918226.js": "8b04deb25aa54135f66d667d95591362b5b2a088",
-    "/styles.edfaa015d40b83df99a3.css": "b93e8d251e4edb2d636cb856ace4abc0bc14ead1"
+    "/styles.507649bfb288d04ae0c1.css": "5cbdd0626665006ae4af8c96af115d2eb2623d3e"
   },
   "navigationUrls": [
     {
